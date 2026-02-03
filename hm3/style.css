@@ -1,0 +1,45 @@
+body {
+  font: 1em sans-serif;
+}
+
+fieldset {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 375px;
+}
+h2 {
+  font-size: 16px;
+}
+h2,
+label,
+input,
+textarea,
+button {
+  margin: 5px;
+}
+.text-position {
+  margin-left: none;
+}
+input,
+textarea {
+  width: 240px;
+}
+textarea {
+  resize: vertical;
+  max-height: 150px;
+  min-height: 35px;
+  display: block;
+}
+input,
+button {
+  display: block;
+}
+.chb input {
+  display: inline;
+  width: 13px;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
